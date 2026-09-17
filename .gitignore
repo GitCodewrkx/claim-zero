@@ -1,0 +1,16 @@
+# Laptop install — CodeBuild runs npm install inside Docker, not from this folder.
+node_modules/
+
+# Local Vite output — the image build produces dist/ inside Docker.
+dist/
+
+# Terraform working files — never commit state or the lock/plugin cache.
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+
+# Local variable values (your GitHub owner/repo). Keep them on the laptop.
+*.tfvars
+!*.tfvars.example

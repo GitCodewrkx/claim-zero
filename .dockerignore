@@ -1,0 +1,17 @@
+# Dependencies are installed inside the image (do not copy the laptop's node_modules).
+node_modules
+
+# Build output is produced inside the image (Lab 1.2 RUN npm run build).
+dist
+
+# VCS metadata is not required in the build context.
+.git
+.gitignore
+
+Dockerfile
+
+# Documentation and local tooling should not bloat the context.
+# terraform/ is authored in Stage 3 and is not part of the React image.
+README.md
+*.md
+.oxlintrc.json

@@ -45,7 +45,7 @@ function App() {
 
       {/* Supporting value statement. */}
       <p className="tagline">
-        Self Paced | 2 Hours | Get your certificate at the end 
+       Building the Next Generation of Cloud Engineers — shipped from GitHub.
       </p>
 
     </div>
